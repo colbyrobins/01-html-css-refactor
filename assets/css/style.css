@@ -1,13 +1,16 @@
+/* Universal selector will apply style to all elements in the document */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* applies background color to the body elements */
 body {
     background-color: #d9dcd6;
 }
 
+/* applies background and font color and style.*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,6 +18,7 @@ body {
     color: #ffffff;
 }
 
+/* make h1 an inline-block*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
@@ -24,7 +28,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +36,7 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
-    list-style-type: none;
-}
-
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
