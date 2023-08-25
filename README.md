@@ -2,16 +2,13 @@
 
 ## Description
 
-This project is for refactoring the Horiseaon Services webpage to meet standards and to implement new technology. 
+This project is for refactoring the Horiseon Services webpage to meet standards and to implement new technology
 
 Key imporovements include:
 
-- Increasing web accessibility:
-    - Ensure people with disabilities can access the webpage using assistive technologies.
-    - Improve site ranking in search engines.
-- Improve code base:
-    - long-term sustainability.
-    - Increase efficiency of the CSS by consolidating and organizing structure.
+- Improve web accessibility and site ranking in search enginers by incorporate alt attributes
+- Consolidated and organized CSS selectors and properties
+- Standardize HTML code with semantic elements.
 
 
 ## Deployed Application
